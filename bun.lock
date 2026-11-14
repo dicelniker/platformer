@@ -1,0 +1,19 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "q5play-template",
+      "dependencies": {
+        "q5play": "^4.5.0",
+      },
+    },
+  },
+  "packages": {
+    "box2d3-wasm": ["box2d3-wasm@6.0.0", "", {}, "sha512-jIStqwx93u5w7PlmfEJ2YfPxn8vag6lmgGR5057VnYVdLGwUvdbQnT7Ooo9D0A5MFGjwrOEWy60fY7MI/hlx8g=="],
+
+    "q5": ["q5@4.10.0", "", {}, "sha512-kV7ZDP+rnaMjy/zb4SBTKQU+CpNbcv4hMhsPHpRv8c+t3jkiDEyf3aBLCmp448ESzKjjgBVwOFfgaou58xmE8A=="],
+
+    "q5play": ["q5play@4.5.0", "", { "dependencies": { "box2d3-wasm": "^6.0.0", "q5": "^4.10.0" } }, "sha512-kM+lexQ9ZRpkeu6WeEnvCMhKtqGH1QqQdhU+Q2qhG+SR1UtNua7uViVFmJ0pVomcu5wO+Jnk3nWxzVD1ex7q0A=="],
+  }
+}
